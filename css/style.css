@@ -233,10 +233,10 @@ body {
 ========================= */
 .footer {
   background-color: #080808;
-  padding: 30px 20px;
+  padding: 40px 20px;
   text-align: center;
   font-size: 0.9rem;
-  opacity: 0.6;
+  opacity: 0.75;
 }
 
 /* =========================
@@ -403,6 +403,29 @@ body {
   color: #fff;
 }
 
+.socials {
+  margin: 15px 0 25px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+
+.socials a {
+  color: var(--white);
+  font-size: 1.3rem;
+  opacity: 0.7;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.socials a:hover {
+  color: var(--gold);
+  opacity: 1;
+  transform: translateY(-3px);
+}
+
+
 @keyframes fadeUp {
   from {
     opacity: 0;
@@ -478,6 +501,8 @@ body {
     right: 20px;
     font-size: 1.6rem;
   }
-
+  .socials a {
+    font-size: 1.4rem;
+  }
 
 }
